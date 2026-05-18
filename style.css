@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    background: #ffffff;
+    background: radial-gradient(circle,rgba(255, 255, 255, 1) 63%, rgba(0, 255, 255, 1) 74%, rgba(0, 0, 0, 1) 79%);
+}
+h1{
+    color: steelblue;
+    text-shadow: 10px 10px 10px violet;
+
+}
+h2{
+    color: beige;
+    background: #ff0000;
+    background: radial-gradient(circle,rgba(255, 0, 0, 1) 53%, rgba(255, 162, 0, 1) 73%, rgba(0, 0, 0, 1) 89%);
+
+}
+p{
+    color: orange;
+
+}
+img{
+    height: 300px;
+    width: 500px;
+
+}
+header {
+    grid-area: header;
+    text-align: center;  /* centra el h1 del header */
+}
+.content {
+    grid-area: content;
+}
+
+.proyectos {
+    grid-area: proyectos;
+}
+.container{
+    display: grid;
+    grid-template-columns: 320px 1fr ;
+    grid-template-rows: auto auto 100px;
+    grid-template-areas: 
+    "header header "
+    "proyectos content "
+    "footer footer ";
+}
+video{
+    height: 300px;
+    width: 500px;
+     }
+ button{
+    background-color: transparent;
+}
+#proyecto1{
+    height: 75px;
+    width: 300px;
+    background: #0a2cf0;
+    background: radial-gradient(circle,rgba(10, 44, 240, 1) 20%, rgba(147, 224, 230, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto2{
+    
+     height: 75px;
+    width: 300px;
+    background: #f00ac2;
+    background: radial-gradient(circle,rgba(240, 10, 194, 1) 20%, rgba(147, 224, 230, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto3{
+    
+    height: 75px;
+    width: 300px;
+    background: #26d91c;
+    background: radial-gradient(circle,rgba(38, 217, 28, 1) 0%, rgba(49, 76, 224, 1) 77%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto4{
+    
+     height: 75px;
+    width: 300px;
+    background: #0a0df0;
+    background: radial-gradient(circle,rgba(10, 13, 240, 1) 0%, rgba(9, 12, 41, 1) 77%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto5{
+    
+    height: 75px;
+    width: 300px;
+    background: #0af043;
+    background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto6{
+    
+     height: 75px;
+    width: 300px;
+    background: #0af043;
+    background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto7{
+    
+    height: 75px;
+    width: 300px;
+    background: #0af043;
+    background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto8{
+    
+     height: 75px;
+    width: 300px;
+    background: #0af043;
+    background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto9{
+    
+     height: 75px;
+    width: 300px;
+    background: #0af043;
+    background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto10{
+    
+     height: 75px;
+    width: 300px;
+    background: #0af043;
+    background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+
+.footer{
+    grid-area: footer;
+    color: black;
+    text-align: center;
+}

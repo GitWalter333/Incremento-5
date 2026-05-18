@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    background: #269da6;
+    background: radial-gradient(circle,rgba(38, 157, 166, 1) 0%, rgba(0, 0, 0, 1) 77%); 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 70px 1fr 50px;
+    grid-template-rows: 300px auto 100px;
+    grid-template-areas: 
+    "header header header"
+    "content content content"
+    "footer footer footer";
+}
+
+.content{
+    grid-area: content;
+}
+
+.proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+h1{
+    color: white;
+    text-shadow: 10px 10px 3px skyblue;
+}
+
+header{
+    grid-area: header;
+}
+
+#mio{
+    color: white;
+     margin: 4px;
+    height: 300px;
+    width: 500px;
+    background-color: purple;
+    border: 10px solid lime;
+    border-radius: 0% 50% 50% 40%;
+}
+
+img{
+   height: 300px;
+    width: 500px;
+    display: block;
+    margin: 0 auto 2rem;
+    border: 2px solid greenyellow;
+}
+
+button{
+    background-color: transparent;
+}
+#skill{
+    border: 1px solid red;
+    height: auto;
+    width: auto;
+    background-color: rgb(227, 181, 226);
+    color: black;
+    max-width: 700px;        /* limita el ancho */
+    margin: 0 auto 1.5rem;   /* lo centra y agrega espacio abajo */
+    line-height: 1.8;        /* más espacio entre líneas, más fácil de leer */
+    text-align: justify;     /* texto justificado */
+    font-size: 1rem;
+}
+.parrafos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;  
+}
+
+#proyecto1{
+    height: 75px;
+    width: 300px;
+    background: #0a2cf0;
+    background: radial-gradient(circle,rgba(10, 44, 240, 1) 20%, rgba(147, 224, 230, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto2{
+    
+     height: 75px;
+    width: 300px;
+    background: #f00ac2;
+    background: radial-gradient(circle,rgba(240, 10, 194, 1) 20%, rgba(147, 224, 230, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto3{
+    
+    height: 75px;
+    width: 300px;
+    background: #26d91c;
+    background: radial-gradient(circle,rgba(38, 217, 28, 1) 0%, rgba(49, 76, 224, 1) 77%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto4{
+    
+     height: 75px;
+    width: 300px;
+    background: #0a0df0;
+    background: radial-gradient(circle,rgba(10, 13, 240, 1) 0%, rgba(9, 12, 41, 1) 77%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto5{
+    
+    height: 75px;
+    width: 300px;
+    background: #0af043;
+    background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto6{
+    
+     height: 75px;
+    width: 300px;
+    background: #0af043;
+    background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto7{
+    
+    height: 75px;
+    width: 300px;
+    background: #0af043;
+    background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto8{
+    
+     height: 75px;
+    width: 300px;
+background: #0af043;
+background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto9{
+    
+     height: 75px;
+    width: 300px;
+background: #0af043;
+background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+#proyecto10{
+    
+     height: 75px;
+    width: 300px;
+background: #0af043;
+background: radial-gradient(circle,rgba(10, 240, 67, 1) 56%, rgba(255, 0, 0, 1) 100%);
+    margin: 10px;
+    border: 2px solid;
+}
+
+.footer{
+    grid-area: footer;
+    color: white;
+    text-align: center;
+}
